@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ÍÒ\LoadRunneLessons\Scripts\UC_1_Booking
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\םע\loadrunnelessons\scripts\uc_1_booking\\logfile.log
+d:\םע\loadrunnelessons\scripts\uc_1_booking\\combined_UC_1_Booking.c
+d:\םע\loadrunnelessons\scripts\uc_1_booking\\pre_cci.c
