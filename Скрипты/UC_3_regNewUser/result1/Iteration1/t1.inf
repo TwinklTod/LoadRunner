@@ -1,6 +1,6 @@
 [t1]
 FileName2=t1f0.html
-RawStepEndTime=1683460430099
+RawStepEndTime=1683751096972
 FileName5=t1f1f1.html
 FileName4=t1f1f0.html
 UseFrameIndex=1
@@ -15,7 +15,7 @@ URL4=http://localhost:1080/cgi-bin/nav.pl?in=home
 URL5=http://localhost:1080/WebTours/home.html
 SnapshotXmlFile=snapshot_1.xml
 RequestHeaderFile=t1_RequestHeader.txt
-RawStepStartTime=1683460429831
+RawStepStartTime=1683751096659
 Total=5
 StepName=Url: WebTours
 FrameIndex2=0.0

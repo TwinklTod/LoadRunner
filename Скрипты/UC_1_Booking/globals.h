@@ -7,12 +7,8 @@
 #include "web_api.h"
 #include "lrw_custom_body.h"
 
-#include "..\Parameters\login.h"
-#include "..\Parameters\click_Flights.h"
-#include "..\Parameters\find_Flights.h"
-#include "..\Parameters\choose_Flights.h"
-#include "..\Parameters\click_Itinerary.h"
-#include "..\Parameters\logout.h"
+#include "..\Parameters\common_lib.h"
+
 
 //--------------------------------------------------------------------
 // Global Variables

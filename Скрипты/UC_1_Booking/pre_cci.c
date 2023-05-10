@@ -1,4 +1,4 @@
-# 1 "d:\\\355\362\\loadrunnelessons\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c"
+# 1 "f:\\\355\362\\loadrunner lessons\\vugen\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -857,7 +857,6 @@ VTCERR   vtc_query_row(PVCI pvci, int rowIndex, char * **outcolumns, char * **ou
 VTCERR   vtc_send_message(PVCI pvci, char * column, char * message, unsigned short *outRc);
 VTCERR   vtc_send_if_unique(PVCI pvci, char * column, char * message, unsigned short *outRc);
 VTCERR   vtc_send_row1(PVCI pvci, char * columnNames, char * messages, char * delimiter, unsigned char sendflag, unsigned short *outUpdates);
-VTCERR   vtc_search_row(PVCI pvci, char * columnNames, char * messages, char * delimiter, char * **outcolumns, char * **outvalues);
 VTCERR   vtc_update_message(PVCI pvci, char * column, int index , char * message, unsigned short *outRc);
 VTCERR   vtc_update_message_ifequals(PVCI pvci, char * columnName, int index,	char * message, char * ifmessage, unsigned short 	*outRc);
 VTCERR   vtc_update_row1(PVCI pvci, char * columnNames, int index , char * messages, char * delimiter, unsigned short *outUpdates);
@@ -888,7 +887,6 @@ VTCERR   lrvtc_query_row(int columnIndex);
 VTCERR   lrvtc_send_message(char * columnName, char * message);
 VTCERR   lrvtc_send_if_unique(char * columnName, char * message);
 VTCERR   lrvtc_send_row1(char * columnNames, char * messages, char * delimiter, unsigned char sendflag);
-VTCERR   lrvtc_search_row(char * columnNames, char * messages, char * delimiter);
 VTCERR   lrvtc_update_message(char * columnName, int index , char * message);
 VTCERR   lrvtc_update_message_ifequals(char * columnName, int index, char * message, char * ifmessage);
 VTCERR   lrvtc_update_row1(char * columnNames, int index , char * messages, char * delimiter);
@@ -968,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "d:\\\355\362\\loadrunnelessons\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
+# 1 "f:\\\355\362\\loadrunner lessons\\vugen\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1010,7 +1008,6 @@ extern VTCERR2  vtc_query_row(PVCI2 pvci, int columnIndex, char ***outcolumns, c
 extern VTCERR2  vtc_send_message(PVCI2 pvci, char *column, char *message, unsigned short *outRc);
 extern VTCERR2  vtc_send_if_unique(PVCI2 pvci, char *column, char *message, unsigned short *outRc);
 extern VTCERR2  vtc_send_row1(PVCI2 pvci, char *columnNames, char *messages, char *delimiter,  unsigned char sendflag, unsigned short *outUpdates);
-extern VTCERR2  vtc_search_row(PVCI2 pvci, char *columnNames, char *messages, char *delimiter, char ***outcolumns, char ***outvalues);
 extern VTCERR2  vtc_update_message(PVCI2 pvci, char *column, int index , char *message, unsigned short *outRc);
 extern VTCERR2  vtc_update_message_ifequals(PVCI2 pvci, char	*columnName, int index,	char *message, char	*ifmessage,	unsigned short 	*outRc);
 extern VTCERR2  vtc_update_row1(PVCI2 pvci, char *columnNames, int index , char *messages, char *delimiter, unsigned short *outUpdates);
@@ -1084,7 +1081,6 @@ extern VTCERR2  lrvtc_query_row(int columnIndex);
 extern VTCERR2  lrvtc_send_message(char *columnName, char *message);
 extern VTCERR2  lrvtc_send_if_unique(char *columnName, char *message);
 extern VTCERR2  lrvtc_send_row1(char *columnNames, char *messages, char *delimiter,  unsigned char sendflag);
-extern VTCERR2  lrvtc_search_row(char *columnNames, char *messages, char *delimiter);
 extern VTCERR2  lrvtc_update_message(char *columnName, int index , char *message);
 extern VTCERR2  lrvtc_update_message_ifequals(char *columnName, int index, char 	*message, char *ifmessage);
 extern VTCERR2  lrvtc_update_row1(char *columnNames, int index , char *messages, char *delimiter);
@@ -1136,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "d:\\\355\362\\loadrunnelessons\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
+# 2 "f:\\\355\362\\loadrunner lessons\\vugen\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
 
 # 1 "globals.h" 1
 
@@ -2580,8 +2576,9 @@ void
 
 # 7 "globals.h" 2
 
-# 1 "lrw_custom_body.h" 1
+# 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrw_custom_body.h" 1
  
+
 
 
 
@@ -2589,60 +2586,12 @@ void
 # 8 "globals.h" 2
 
 
- 
- 
-
-
-# 3 "d:\\\355\362\\loadrunnelessons\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
-
-# 1 "vuser_init.c" 1
-vuser_init()
-{
-	return 0;
-}
-# 4 "d:\\\355\362\\loadrunnelessons\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
-
-# 1 "Action.c" 1
-Action()
-{
-
-	lr_start_transaction("UC_1_Booking");
-	
-	lr_start_transaction("open_homepage");
-	
-	web_reg_find("Text/IC=Welcome to the Web Tours site.",
-		"LAST");
-
- 
-	web_reg_save_param_attrib(
-		"ParamName=userSession",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
-		"RequestUrl=*/nav.pl*",
-		"LAST");
-
-	web_url("WebTours", 
-		"URL=http://localhost:1080/WebTours/", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=", 
-		"Snapshot=t1.inf", 
-		"Mode=HTML", 
-		"EXTRARES", 
-		"Url=../favicon.ico", "Referer=", "ENDITEM", 
-		"LAST");
-	
-	lr_end_transaction("open_homepage", 2);
-
+# 1 "..\\Parameters\\common_lib.h" 1
+login(){
 	lr_start_transaction("login");
 	
- 
- 
+	web_reg_find("Text/IC=Welcome, <b>jojo</b>, to the Web Tours reservation pages.",
+		"LAST");
 
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -2660,9 +2609,40 @@ Action()
 		"Name=login.x", "Value=0", "ENDITEM",
 		"Name=login.y", "Value=0", "ENDITEM",
 		"LAST");
-
 	lr_end_transaction("login",2);
+}
 
+open_homepage (){
+	lr_start_transaction("open_homepage");
+	
+	 
+	web_reg_save_param_attrib(
+		"ParamName=userSession",
+		"TagName=input",
+		"Extract=value",
+		"Name=userSession",
+		"Type=hidden",
+		"SEARCH_FILTERS",
+		"IgnoreRedirections=No",
+		"RequestUrl=*/nav.pl*",
+		"LAST");
+	
+	web_url("WebTours", 
+		"URL=http://localhost:1080/WebTours/", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=", 
+		"Snapshot=t1.inf", 
+		"Mode=HTML", 
+		"EXTRARES", 
+		"Url=../favicon.ico", "Referer=", "ENDITEM", 
+		"LAST");
+	
+	lr_end_transaction("open_homepage", 2);
+}
+
+click_flight(){
 	lr_start_transaction("click_Flights");
 	
 	web_reg_find("Text/IC=<title>Flight Selections</title>",
@@ -2679,7 +2659,9 @@ Action()
 		"LAST");
 
 	lr_end_transaction("click_Flights",2);
+}
 
+find_flights(){
 	lr_start_transaction("Find_Flight");
 	
 	web_reg_find("Text/IC=Flight departing from <B>{depart_city}</B> to <B>{arrive_city}</B> on <B>{depart_date}<",
@@ -2697,9 +2679,6 @@ Action()
 		"RB/IC=\"",
 		"ORD=random",
 		"LAST");
-	
-	
-	
 	
 	
 	web_submit_data("reservations.pl", 
@@ -2730,9 +2709,9 @@ Action()
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	lr_end_transaction("Find_Flight",2);
+}
 
-	lr_think_time(9);
-
+choose_flight(){
 	lr_start_transaction("Choose_Flight");
 	
 	web_reg_find("Text/IC=<b>Payment Details</font></b>",
@@ -2749,7 +2728,7 @@ Action()
 		"ITEMDATA", 
 		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
 		"Name=returnFlight", "Value={returnFlight}", "ENDITEM",		
-		"Name=numPassengers", "Value={countpass}", "ENDITEM", 
+		"Name=numPassengers", "Value={count_pass}", "ENDITEM", 
 		"Name=advanceDiscount", "Value=0", "ENDITEM", 
 		"Name=seatType", "Value={seatType}", "ENDITEM", 
 		"Name=seatPref", "Value={seatPref}", "ENDITEM", 
@@ -2758,50 +2737,9 @@ Action()
 		"LAST");
 
 	lr_end_transaction("Choose_Flight",2);
+}
 
-	lr_start_transaction("Payment_Details");
-	
-	web_reg_find("Text/IC=<B>Thank you for booking through Web Tours.</B>",
-		"LAST");
-	
-	web_reg_find("Text/IC=leaves {depart_city}  for {arrive_city}.<br>",
-		"LAST");
-
-	
-	web_submit_data("reservations.pl_3", 
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t6.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=firstName", "Value={first_Name}", "ENDITEM", 
-		"Name=lastName", "Value={last_Name}", "ENDITEM", 
-		"Name=address1", "Value={street}", "ENDITEM", 
-		"Name=address2", "Value={city}", "ENDITEM", 
-		"Name=pass1", "Value={pass_Name}", "ENDITEM",
-		"Name=pass2", "Value={pass_Name}", "ENDITEM", 
-		"Name=pass3", "Value={pass_Name}", "ENDITEM", 
-		"Name=creditCard", "Value={credit_card}", "ENDITEM", 
-		"Name=expDate", "Value={exp_date}", "ENDITEM", 
-		"Name=oldCCOption", "Value=on", "ENDITEM", 
-		"Name=numPassengers", "Value={count_pass}", "ENDITEM", 
-		"Name=seatType", "Value={seat_type}", "ENDITEM", 
-		"Name=seatPref", "Value={seat_pref}", "ENDITEM", 
-		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM", 
-		"Name=advanceDiscount", "Value=0", "ENDITEM",
-		"Name=returnFlight", "Value={returnFlight}", "ENDITEM",		
-		"Name=returnFlight", "Value=", "ENDITEM", 
-		"Name=JSFormSubmit", "Value=off", "ENDITEM", 
-		"Name=.cgifields", "Value=saveCC", "ENDITEM", 
-		"Name=buyFlights.x", "Value=48", "ENDITEM", 
-		"Name=buyFlights.y", "Value=10", "ENDITEM", 
-		"LAST");
-
-	lr_end_transaction("Payment_Details",2);
-	
+click_itinerary(){
 	lr_start_transaction("click_Itinerary");
 
 	web_url("Itinerary Button", 
@@ -2815,33 +2753,97 @@ Action()
 		"LAST");
 
 	lr_end_transaction("click_Itinerary",2);
+}
+# 10 "globals.h" 2
 
-	lr_start_transaction("Logout");
+
+
+ 
+ 
+
+
+# 3 "f:\\\355\362\\loadrunner lessons\\vugen\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
+
+# 1 "vuser_init.c" 1
+vuser_init()
+{
+	return 0;
+}
+# 4 "f:\\\355\362\\loadrunner lessons\\vugen\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
+
+# 1 "Action.c" 1
+Action()
+{
+
+	lr_start_transaction("UC_1_Booking");
 	
-	web_reg_find("Text/IC=Welcome to the Web Tours site.",
-		"LAST");
+	open_homepage();
+	
+	login();
+	
+	click_flight();
+	
+	find_flights();
+	
 
-	web_url("SignOff Button", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-		"TargetFrame=body", 
-		"Resource=0", 
+	lr_think_time(9);
+
+	choose_flight();
+
+	lr_start_transaction("Payment_Details");
+	
+	web_reg_find("Text/IC=<B>Thank you for booking through Web Tours.</B>",
+		"LAST");
+	
+	web_reg_find("Text/IC=leaves {depart_city}  for {arrive_city}.<br>",
+		"LAST");
+		
+	web_submit_data("reservations.pl_3", 
+		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Method=POST", 
+		"TargetFrame=", 
 		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
-		"Snapshot=t7.inf", 
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Snapshot=t6.inf", 
 		"Mode=HTML", 
+		"ITEMDATA", 
+		
+		"Name=firstName", "Value={first_Name}", "ENDITEM", 
+		"Name=lastName", "Value={last_Name}", "ENDITEM", 
+		"Name=address1", "Value={street}", "ENDITEM", 
+		"Name=address2", "Value={city}", "ENDITEM",
+		"Name=pass1", "Value={pass_Name}", "ENDITEM",
+		"Name=pass2", "Value={pass_Name}", "ENDITEM",
+		"Name=pass3", "Value={pass_Name}", "ENDITEM",		
+		"Name=creditCard", "Value={credit_card}", "ENDITEM", 
+		"Name=expDate", "Value={exp_date}", "ENDITEM", 
+		"Name=oldCCOption", "Value=on", "ENDITEM", 
+		"Name=numPassengers", "Value={count_pass}", "ENDITEM", 
+		"Name=seatType", "Value={seat_type}", "ENDITEM", 
+		"Name=seatPref", "Value={seat_pref}", "ENDITEM", 
+		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM", 
+		"Name=advanceDiscount", "Value=0", "ENDITEM",
+		"Name=returnFlight", "Value={returnFlight}", "ENDITEM",		 
+		"Name=JSFormSubmit", "Value=off", "ENDITEM", 
+		"Name=.cgifields", "Value=saveCC", "ENDITEM", 
+		"Name=buyFlights.x", "Value=48", "ENDITEM", 
+		"Name=buyFlights.y", "Value=10", "ENDITEM", 
 		"LAST");
 
-	lr_end_transaction("Logout",2);
+	lr_end_transaction("Payment_Details",2);
+	
+	click_itinerary();
+	
 	lr_end_transaction("UC_1_Booking", 2);
 
 	return 0;
 }
-# 5 "d:\\\355\362\\loadrunnelessons\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
+# 5 "f:\\\355\362\\loadrunner lessons\\vugen\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "d:\\\355\362\\loadrunnelessons\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
+# 6 "f:\\\355\362\\loadrunner lessons\\vugen\\scripts\\uc_1_booking\\\\combined_UC_1_Booking.c" 2
 

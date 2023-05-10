@@ -6,7 +6,7 @@ Action()
 
 	login();
 
-	click_Itinerary();
+	click_itinerary();
 
 	lr_start_transaction("cancel_booking");
 	

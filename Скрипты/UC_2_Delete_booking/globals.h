@@ -7,11 +7,7 @@
 #include "web_api.h"
 #include "lrw_custom_body.h"
 
-#include "..\Parameters\open_homepage.h"
-#include "..\Parameters\login.h"
-#include "..\Parameters\click_Itinerary.h"
-#include "..\Parameters\logout.h"
-
+#include "..\Parameters\common_lib.h"
 //--------------------------------------------------------------------
 // Global Variables
 

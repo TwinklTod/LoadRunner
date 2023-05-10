@@ -13,13 +13,18 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="UC_3_regNewUser.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="ScriptVcsSettings.xml" Filter="2" />
     <FileEntry Name="Watches.xml" Filter="2" />
     <FileEntry Name="combined_UC_3_regNewUser.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="112113641440.idx" Filter="1" />
     <FileEntry Name="12929024440.idx" Filter="1" />
+    <FileEntry Name="133415316440.idx" Filter="1" />
     <FileEntry Name="224240883440.idx" Filter="1" />
     <FileEntry Name="225682771440.idx" Filter="1" />
+    <FileEntry Name="37902947440.idx" Filter="1" />
+    <FileEntry Name="80942321440.idx" Filter="1" />
+    <FileEntry Name="98801480440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="Cities.dat" Filter="1" />
@@ -37,7 +42,6 @@
     <FileEntry Name="round_trip.dat" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="Seat_pref_type.dat" Filter="1" />
-    <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC_3_regNewUser.c.pickle" Filter="1" />
     <FileEntry Name="UC_3_regNewUser.ci" Filter="1" />
     <FileEntry Name="UC_3_regNewUser.prb" Filter="1" />

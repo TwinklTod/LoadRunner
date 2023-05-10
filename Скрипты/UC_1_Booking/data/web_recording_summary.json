@@ -40,12 +40,12 @@
     "IsWinInetMode": true,
     "MaxUsedConnections": 0,
     "RecordedBrowser": "Internet Explorer",
-    "RecordingDate": "Р В Р’В Р РЋР’ВР В Р’В Р вЂ™Р’В°Р В Р’В Р Р†РІР‚С›РІР‚вЂњ-02-2023",
+    "RecordingDate": "май-02-2023",
     "RecordingDuration": 164031,
     "RecordingMode": "N/A",
     "RecordingTimeStamp": 1683056470,
     "RecordingType": "Browser",
-    "TotalBytesReceived": 36797,
+    "TotalBytesReceived": 37342,
     "TotalBytesSent": 14659,
     "TotalRequests": 31,
     "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
@@ -102,7 +102,7 @@
               "DownloadTime": 0,
               "EventId": 3158,
               "HttpStatus": 200,
-              "Size": 1490,
+              "Size": 1530,
               "URL": "http://localhost:1080/cgi-bin/nav.pl?in=home"
             },
             {
@@ -111,7 +111,7 @@
               "DownloadTime": 0,
               "EventId": 3157,
               "HttpStatus": 200,
-              "Size": 1361,
+              "Size": 1401,
               "URL": "http://localhost:1080/WebTours/home.html"
             },
             {
@@ -120,7 +120,7 @@
               "DownloadTime": 0,
               "EventId": 3156,
               "HttpStatus": 200,
-              "Size": 686,
+              "Size": 706,
               "URL": "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"
             },
             {
@@ -138,7 +138,7 @@
               "DownloadTime": 0,
               "EventId": 3144,
               "HttpStatus": 200,
-              "Size": 2493,
+              "Size": 2590,
               "URL": "http://localhost:1080/cgi-bin/reservations.pl"
             },
             {
@@ -147,7 +147,7 @@
               "DownloadTime": 0,
               "EventId": 3135,
               "HttpStatus": 200,
-              "Size": 2698,
+              "Size": 2713,
               "URL": "http://localhost:1080/cgi-bin/reservations.pl"
             },
             {
@@ -156,7 +156,7 @@
               "DownloadTime": 0,
               "EventId": 1566,
               "HttpStatus": 200,
-              "Size": 2454,
+              "Size": 2481,
               "URL": "http://localhost:1080/cgi-bin/reservations.pl"
             },
             {
@@ -165,7 +165,7 @@
               "DownloadTime": 0,
               "EventId": 62,
               "HttpStatus": 403,
-              "Size": 219,
+              "Size": 227,
               "URL": "http://localhost:1080/WebTours/classes/"
             },
             {
@@ -174,7 +174,7 @@
               "DownloadTime": 0,
               "EventId": 61,
               "HttpStatus": 403,
-              "Size": 219,
+              "Size": 227,
               "URL": "http://localhost:1080/WebTours/classes/"
             },
             {
@@ -192,7 +192,7 @@
               "DownloadTime": 0,
               "EventId": 59,
               "HttpStatus": 200,
-              "Size": 4246,
+              "Size": 4302,
               "URL": "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"
             },
             {
@@ -219,7 +219,7 @@
               "DownloadTime": 0,
               "EventId": 54,
               "HttpStatus": 200,
-              "Size": 1482,
+              "Size": 1515,
               "URL": "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"
             },
             {
@@ -228,7 +228,7 @@
               "DownloadTime": 0,
               "EventId": 51,
               "HttpStatus": 200,
-              "Size": 616,
+              "Size": 633,
               "URL": "http://localhost:1080/cgi-bin/welcome.pl?page=search"
             },
             {
@@ -273,7 +273,7 @@
               "DownloadTime": 0,
               "EventId": 29,
               "HttpStatus": 200,
-              "Size": 1482,
+              "Size": 1515,
               "URL": "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"
             },
             {
@@ -282,7 +282,7 @@
               "DownloadTime": 0,
               "EventId": 28,
               "HttpStatus": 200,
-              "Size": 918,
+              "Size": 932,
               "URL": "http://localhost:1080/cgi-bin/login.pl?intro=true"
             },
             {
@@ -291,7 +291,7 @@
               "DownloadTime": 0,
               "EventId": 27,
               "HttpStatus": 200,
-              "Size": 481,
+              "Size": 495,
               "URL": "http://localhost:1080/cgi-bin/login.pl"
             },
             {
@@ -318,7 +318,7 @@
               "DownloadTime": 0,
               "EventId": 16,
               "HttpStatus": 200,
-              "Size": 1361,
+              "Size": 1401,
               "URL": "http://localhost:1080/WebTours/home.html"
             },
             {
@@ -327,7 +327,7 @@
               "DownloadTime": 0,
               "EventId": 13,
               "HttpStatus": 200,
-              "Size": 1486,
+              "Size": 1526,
               "URL": "http://localhost:1080/cgi-bin/nav.pl?in=home"
             },
             {
@@ -354,7 +354,7 @@
               "DownloadTime": 0,
               "EventId": 10,
               "HttpStatus": 200,
-              "Size": 686,
+              "Size": 706,
               "URL": "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"
             },
             {
@@ -363,7 +363,7 @@
               "DownloadTime": 0,
               "EventId": 9,
               "HttpStatus": 200,
-              "Size": 710,
+              "Size": 723,
               "URL": "http://localhost:1080/WebTours/header.html"
             },
             {
@@ -372,7 +372,7 @@
               "DownloadTime": 16,
               "EventId": 8,
               "HttpStatus": 200,
-              "Size": 366,
+              "Size": 376,
               "URL": "http://localhost:1080/WebTours/"
             }
           ],
@@ -387,5 +387,5 @@
     "IncludeInScript": false,
     "IsScriptIncludeWebSocket": false
   },
-  "NumberOfCorrelations": 6
+  "NumberOfCorrelations": 7
 }

@@ -3,9 +3,9 @@ Action()
 	lr_start_transaction("UC_4_SearchFlight");
 	open_homepage();
 	login();
-	click_Flights();
-	find_Flights();
-	choose_Flights();
+	click_flight();
+	find_flights();
+	choose_flights();
 	logout();
 	lr_end_transaction("UC_4_SearchFlight", LR_AUTO);
 }

@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\ÍÒ\LoadRunneLessons\Scripts\UC_3_regNewUser
+-IF:\ÍÒ\LoadRunner Lessons\VuGen\Scripts\UC_3_regNewUser
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\םע\loadrunnelessons\scripts\uc_3_regnewuser\\logfile.log
-d:\םע\loadrunnelessons\scripts\uc_3_regnewuser\\combined_UC_3_regNewUser.c
-d:\םע\loadrunnelessons\scripts\uc_3_regnewuser\\pre_cci.c
+-ef:\םע\loadrunner lessons\vugen\scripts\uc_3_regnewuser\\logfile.log
+f:\םע\loadrunner lessons\vugen\scripts\uc_3_regnewuser\\combined_UC_3_regNewUser.c
+f:\םע\loadrunner lessons\vugen\scripts\uc_3_regnewuser\\pre_cci.c

@@ -5,12 +5,12 @@ Action()
 	
 	open_homepage();
 	login();
-	click_Flights();
-	find_Flights();
+	click_flight();
+	find_flights();
 
 	lr_think_time(9);
 
-	choose_Flight();
+	choose_flight();
 
 	lr_start_transaction("Payment_Details");
 	
