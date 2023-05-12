@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Denver&departDate=05%2F12%2F2023&arrive=Sydney&returnDate=05%2F16%2F2"
-"023&numPassengers=1&roundtrip=on&seatPref=Window&seatType=First&.cgifields=roundtrip&.cgifield"
-"s=seatType&.cgifields=seatPref&findFlights.x=74&findFlights.y=14"

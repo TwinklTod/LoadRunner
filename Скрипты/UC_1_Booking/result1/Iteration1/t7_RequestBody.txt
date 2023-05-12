@@ -1,5 +1,0 @@
-"firstName=Alice&lastName=Miller&address1=456+Elm+St&address2=Los+Angeles&pass1=Thomas+Lee&pass"
-"2=James+Thompson&pass3=James+Thompson&creditCard=5555+5555+5555+4444&expDate=06%2F24&oldCCOpti"
-"on=on&numPassengers=1&seatType=First&seatPref=Window&outboundFlight=081%3B1323%3B05%2F12%2F202"
-"3&advanceDiscount=0&returnFlight=801%3B1323%3B05%2F16%2F2023&JSFormSubmit=off&.cgifields=saveC"
-"C&buyFlights.x=48&buyFlights.y=10"

@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IF:\ÍÒ\LoadRunner Lessons\VuGen\Scripts\UC_3_SignUp
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ef:\םע\loadrunner lessons\vugen\scripts\uc_3_signup\\logfile.log
-f:\םע\loadrunner lessons\vugen\scripts\uc_3_signup\\combined_UC_3_SignUp.c
-f:\םע\loadrunner lessons\vugen\scripts\uc_3_signup\\pre_cci.c

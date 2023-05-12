@@ -1,0 +1,20 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+..\\Parameters\\common_lib.h(95): Registered web_reg_find successful for "Text=Flight departing from <B>Sydney</B> to <B>San Francisco</B> on <B>05/13/2023<" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\common_lib.h(95): web_submit_data("reservations.pl") was successful, 3611 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(120): web_set_sockets_option started  	[MsgId: MMSG-26355]
+..\\Parameters\\common_lib.h(120): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\common_lib.h(122): Notify: Transaction "Find_Flight" ended with a "Pass" status (Duration: 0,0664 Wasted Time: 0,0004).	[MsgId: MMSG-16871]
+Action.c(8): Error: C interpreter run time error: Action.c (8):  Error -- Unresolved symbol : choose_flights.	[MsgId: MERR-19890]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+..\\Parameters\\common_lib.h(95): Registered web_reg_find successful for "Text=Flight departing from <B>Paris</B> to <B>Frankfurt</B> on <B>05/13/2023<" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\common_lib.h(95): web_submit_data("reservations.pl") was successful, 3594 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(120): web_set_sockets_option started  	[MsgId: MMSG-26355]
+..\\Parameters\\common_lib.h(120): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\common_lib.h(122): Notify: Transaction "Find_Flight" ended with a "Pass" status (Duration: 0,1185 Wasted Time: 0,0001).	[MsgId: MMSG-16871]
+Action.c(8): Error: C interpreter run time error: Action.c (8):  Error -- Unresolved symbol : choose_flights.	[MsgId: MERR-19890]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
