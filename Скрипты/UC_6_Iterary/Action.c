@@ -2,6 +2,6 @@ Action()
 {
 	open_homepage();
 	login();
-	click_Iterary();
+	click_itinerary();
 	logout();
 }
