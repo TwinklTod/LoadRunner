@@ -1,7 +1,7 @@
 Action()
 {
 
-	lr_start_transaction("UC_5_Booking(without_Iterary");
+	lr_start_transaction("UC_5_Booking(without_Iterary)");
 	
 	open_homepage();
 	login();
