@@ -5,9 +5,19 @@ Action()
 	open_homepage();
 
 	login();
+	
+	web_reg_find("SaveCount=NoBooking",
+		"Text/IC=<H3>No flights have been reserved.</H3>",
+		LAST);
 
 	click_itinerary();
 
+	                
+	if (atoi(lr_eval_string("{NoBooking}")) == 1) {
+	    logout();
+	    }
+	else {
+	 			
 	lr_start_transaction("cancel_booking");
 	
 	web_reg_find("Fail=Found",
@@ -23,9 +33,8 @@ Action()
 		LAST);
 
 	lr_end_transaction("cancel_booking",LR_AUTO);
-
 	logout();
-	
+	    }
 	lr_end_transaction("UC_2_Delete_booking", LR_AUTO);
 
 	return 0;

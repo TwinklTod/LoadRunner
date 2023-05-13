@@ -1,0 +1,11 @@
+Start auto log messages stack - Iteration 145.	[MsgId: MMSG-10545]
+..\\Parameters\\common_lib.h(7): web_submit_data("login.pl") was successful, 5779 body bytes, 2031 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(23): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,3056 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+..\\Parameters\\common_lib.h(154): Notify: Transaction "click_Itinerary" started.	[MsgId: MMSG-16999]
+..\\Parameters\\common_lib.h(156): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\common_lib.h(156): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+..\\Parameters\\common_lib.h(156): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+..\\Parameters\\common_lib.h(156): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
