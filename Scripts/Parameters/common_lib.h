@@ -1,7 +1,7 @@
 login(){
 	lr_start_transaction("login");
 	
-	web_reg_find("Text/IC=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",
+	web_reg_find("Text/IC=Welcome, <b>{username}</b>, to the Web Tours reservation pages.",
 		LAST);
 
 	web_submit_data("login.pl",
@@ -14,7 +14,7 @@ login(){
 		"Mode=HTML",
 		ITEMDATA,
 		"Name=userSession", "Value={userSession}", ENDITEM,
-		"Name=username", "Value={login}", ENDITEM,
+		"Name=username", "Value={username}", ENDITEM,
 		"Name=password", "Value={password}", ENDITEM,
 		"Name=JSFormSubmit", "Value=off", ENDITEM,
 		"Name=login.x", "Value=0", ENDITEM,

@@ -1,9 +1,9 @@
-Virtual User Script started at: 12.05.2023 20:31:51
+Virtual User Script started at: 13.05.2023 14:40:31
 Starting action vuser_init.
-Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (ÿíâ 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (Jan 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
-Runtime Settings file: "D:\ÍÒ\LoadRunneLessons\LoadRunner\Ñêðèïòû\UC_SignUp\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "D:\IBS\LoadRunneLessons\LoadRunner\Scripts\UC_SignUp\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -24,10 +24,10 @@ Action.c(11): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(11): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(11): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(11): Registered web_reg_find successful for "Text=If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getInfo=true" ><B>sign up now</B></A> to get access to all our resources." (count=1)  	[MsgId: MMSG-26364]
-Action.c(11): web_url("WebTours") highest severity level was "warning", 10287 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(11): web_url("WebTours") highest severity level was "warning", 10288 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.3474 Wasted Time: 0.1252).
+Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.3402 Wasted Time: 0.1238).
 Action.c(26): Notify: Transaction "click_SignUpNow" started.
 Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -36,7 +36,7 @@ Action.c(31): Found resource "http://localhost:1080/WebTours/profileValidate.js"
 Action.c(31): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(31): Registered web_reg_find successful for "Text=><B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
 Action.c(31): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1296 Wasted Time: 0.0108).
+Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0,1499 Wasted Time: 0,0103).
 Action.c(45): Notify: Transaction "complete_profile" started.
 Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -45,10 +45,10 @@ Action.c(49): Resource "http://localhost:1080/WebTours/profileValidate.js" is in
 Action.c(49): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(49): Error -26366: "Text=Thank you, <b>jsmith321</b>, for registering and welcome to the Web Tours family." not found for web_reg_find  	[MsgId: MERR-26366]
 Action.c(49): web_submit_data("login.pl") highest severity level was "ERROR", 2742 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
-Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0,1110 Wasted Time: 0,0077).
+Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0,1273 Wasted Time: 0,0065).
 Action.c(49): Notify: Transaction "complete_profile" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "complete_profile" is "Error -26366: "Text=Thank you, <b>jsmith321</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
-Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,6503 Wasted Time: 0,1437).
+Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,6893 Wasted Time: 0,1407).
 Action.c(49): Notify: Transaction "UC_0_SignUp" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "UC_0_SignUp" is "Error -26366: "Text=Thank you, <b>jsmith321</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
 Ending action Action.
@@ -73,7 +73,7 @@ Action.c(11): Registered web_reg_find successful for "Text=If you haven't regist
 Action.c(11): web_url("WebTours") highest severity level was "warning", 10287 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0,1795 Wasted Time: 0,0128).
+Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.1897 Wasted Time: 0.0145).
 Action.c(26): Notify: Transaction "click_SignUpNow" started.
 Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -82,7 +82,7 @@ Action.c(31): Found resource "http://localhost:1080/WebTours/profileValidate.js"
 Action.c(31): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(31): Registered web_reg_find successful for "Text=><B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
 Action.c(31): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1296 Wasted Time: 0.0085).
+Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0,1499 Wasted Time: 0,0127).
 Action.c(45): Notify: Transaction "complete_profile" started.
 Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -91,10 +91,10 @@ Action.c(49): Resource "http://localhost:1080/WebTours/profileValidate.js" is in
 Action.c(49): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(49): Error -26366: "Text=Thank you, <b>amiller23</b>, for registering and welcome to the Web Tours family." not found for web_reg_find  	[MsgId: MERR-26366]
 Action.c(49): web_submit_data("login.pl") highest severity level was "ERROR", 2747 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
-Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0.1212 Wasted Time: 0.0078).
+Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0,1285 Wasted Time: 0,0084).
 Action.c(49): Notify: Transaction "complete_profile" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "complete_profile" is "Error -26366: "Text=Thank you, <b>amiller23</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
-Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,4712 Wasted Time: 0,0291).
+Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,5086 Wasted Time: 0,0356).
 Action.c(49): Notify: Transaction "UC_0_SignUp" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "UC_0_SignUp" is "Error -26366: "Text=Thank you, <b>amiller23</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
 Ending action Action.
@@ -116,10 +116,10 @@ Action.c(11): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(11): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(11): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(11): Registered web_reg_find successful for "Text=If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getInfo=true" ><B>sign up now</B></A> to get access to all our resources." (count=1)  	[MsgId: MMSG-26364]
-Action.c(11): web_url("WebTours") highest severity level was "warning", 10289 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(11): web_url("WebTours") highest severity level was "warning", 10287 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.1900 Wasted Time: 0.0145).
+Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0,1998 Wasted Time: 0,0148).
 Action.c(26): Notify: Transaction "click_SignUpNow" started.
 Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -128,7 +128,7 @@ Action.c(31): Found resource "http://localhost:1080/WebTours/profileValidate.js"
 Action.c(31): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(31): Registered web_reg_find successful for "Text=><B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
 Action.c(31): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1896 Wasted Time: 0.0128).
+Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1970 Wasted Time: 0.0124).
 Action.c(45): Notify: Transaction "complete_profile" started.
 Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -137,10 +137,10 @@ Action.c(49): Resource "http://localhost:1080/WebTours/profileValidate.js" is in
 Action.c(49): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(49): Error -26366: "Text=Thank you, <b>bjohnson82</b>, for registering and welcome to the Web Tours family." not found for web_reg_find  	[MsgId: MERR-26366]
 Action.c(49): web_submit_data("login.pl") highest severity level was "ERROR", 2744 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
-Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0,1244 Wasted Time: 0,0166).
+Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0.1293 Wasted Time: 0.0112).
 Action.c(49): Notify: Transaction "complete_profile" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "complete_profile" is "Error -26366: "Text=Thank you, <b>bjohnson82</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
-Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,5446 Wasted Time: 0,0439).
+Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0.5713 Wasted Time: 0.0385).
 Action.c(49): Notify: Transaction "UC_0_SignUp" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "UC_0_SignUp" is "Error -26366: "Text=Thank you, <b>bjohnson82</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
 Ending action Action.
@@ -162,10 +162,10 @@ Action.c(11): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(11): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(11): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(11): Registered web_reg_find successful for "Text=If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getInfo=true" ><B>sign up now</B></A> to get access to all our resources." (count=1)  	[MsgId: MMSG-26364]
-Action.c(11): web_url("WebTours") highest severity level was "warning", 10289 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(11): web_url("WebTours") highest severity level was "warning", 10285 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.1898 Wasted Time: 0.0171).
+Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.2099 Wasted Time: 0.0141).
 Action.c(26): Notify: Transaction "click_SignUpNow" started.
 Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -174,7 +174,7 @@ Action.c(31): Found resource "http://localhost:1080/WebTours/profileValidate.js"
 Action.c(31): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(31): Registered web_reg_find successful for "Text=><B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
 Action.c(31): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1599 Wasted Time: 0.0189).
+Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0,1396 Wasted Time: 0,0189).
 Action.c(45): Notify: Transaction "complete_profile" started.
 Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -183,10 +183,10 @@ Action.c(49): Resource "http://localhost:1080/WebTours/profileValidate.js" is in
 Action.c(49): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(49): Error -26366: "Text=Thank you, <b>klee777</b>, for registering and welcome to the Web Tours family." not found for web_reg_find  	[MsgId: MERR-26366]
 Action.c(49): web_submit_data("login.pl") highest severity level was "ERROR", 2736 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
-Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0.1311 Wasted Time: 0.0179).
+Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0.1287 Wasted Time: 0.0127).
 Action.c(49): Notify: Transaction "complete_profile" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "complete_profile" is "Error -26366: "Text=Thank you, <b>klee777</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
-Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,5211 Wasted Time: 0,0538).
+Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,5182 Wasted Time: 0,0457).
 Action.c(49): Notify: Transaction "UC_0_SignUp" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "UC_0_SignUp" is "Error -26366: "Text=Thank you, <b>klee777</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
 Ending action Action.
@@ -208,10 +208,10 @@ Action.c(11): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(11): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(11): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(11): Registered web_reg_find successful for "Text=If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getInfo=true" ><B>sign up now</B></A> to get access to all our resources." (count=1)  	[MsgId: MMSG-26364]
-Action.c(11): web_url("WebTours") highest severity level was "warning", 10283 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(11): web_url("WebTours") highest severity level was "warning", 10285 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.1998 Wasted Time: 0.0192).
+Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.1903 Wasted Time: 0.0180).
 Action.c(26): Notify: Transaction "click_SignUpNow" started.
 Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -220,7 +220,7 @@ Action.c(31): Found resource "http://localhost:1080/WebTours/profileValidate.js"
 Action.c(31): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(31): Registered web_reg_find successful for "Text=><B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
 Action.c(31): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1398 Wasted Time: 0.0202).
+Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1598 Wasted Time: 0.0200).
 Action.c(45): Notify: Transaction "complete_profile" started.
 Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -229,10 +229,10 @@ Action.c(49): Resource "http://localhost:1080/WebTours/profileValidate.js" is in
 Action.c(49): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(49): Error -26366: "Text=Thank you, <b>pthomas96</b>, for registering and welcome to the Web Tours family." not found for web_reg_find  	[MsgId: MERR-26366]
 Action.c(49): web_submit_data("login.pl") highest severity level was "ERROR", 2749 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
-Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0.1406 Wasted Time: 0.0172).
+Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0.1458 Wasted Time: 0.0144).
 Action.c(49): Notify: Transaction "complete_profile" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "complete_profile" is "Error -26366: "Text=Thank you, <b>pthomas96</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
-Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,5204 Wasted Time: 0,0567).
+Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,5359 Wasted Time: 0,0524).
 Action.c(49): Notify: Transaction "UC_0_SignUp" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "UC_0_SignUp" is "Error -26366: "Text=Thank you, <b>pthomas96</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
 Ending action Action.
@@ -254,10 +254,10 @@ Action.c(11): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(11): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(11): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(11): Registered web_reg_find successful for "Text=If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getInfo=true" ><B>sign up now</B></A> to get access to all our resources." (count=1)  	[MsgId: MMSG-26364]
-Action.c(11): web_url("WebTours") highest severity level was "warning", 10283 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(11): web_url("WebTours") highest severity level was "warning", 10288 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0,1900 Wasted Time: 0,0213).
+Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0,2198 Wasted Time: 0,0273).
 Action.c(26): Notify: Transaction "click_SignUpNow" started.
 Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -266,7 +266,7 @@ Action.c(31): Found resource "http://localhost:1080/WebTours/profileValidate.js"
 Action.c(31): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(31): Registered web_reg_find successful for "Text=><B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
 Action.c(31): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1298 Wasted Time: 0.0187).
+Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1398 Wasted Time: 0.0189).
 Action.c(45): Notify: Transaction "complete_profile" started.
 Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -275,10 +275,10 @@ Action.c(49): Resource "http://localhost:1080/WebTours/profileValidate.js" is in
 Action.c(49): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(49): Error -26366: "Text=Thank you, <b>dhill88</b>, for registering and welcome to the Web Tours family." not found for web_reg_find  	[MsgId: MERR-26366]
 Action.c(49): web_submit_data("login.pl") highest severity level was "ERROR", 2736 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
-Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0,1238 Wasted Time: 0,0203).
+Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0.1268 Wasted Time: 0.0129).
 Action.c(49): Notify: Transaction "complete_profile" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "complete_profile" is "Error -26366: "Text=Thank you, <b>dhill88</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
-Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0.4839 Wasted Time: 0.0604).
+Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,5333 Wasted Time: 0,0591).
 Action.c(49): Notify: Transaction "UC_0_SignUp" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "UC_0_SignUp" is "Error -26366: "Text=Thank you, <b>dhill88</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
 Ending action Action.
@@ -300,10 +300,10 @@ Action.c(11): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(11): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(11): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(11): Registered web_reg_find successful for "Text=If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getInfo=true" ><B>sign up now</B></A> to get access to all our resources." (count=1)  	[MsgId: MMSG-26364]
-Action.c(11): web_url("WebTours") highest severity level was "warning", 10289 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(11): web_url("WebTours") highest severity level was "warning", 10288 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.1898 Wasted Time: 0.0232).
+Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.1997 Wasted Time: 0.0230).
 Action.c(26): Notify: Transaction "click_SignUpNow" started.
 Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -312,7 +312,7 @@ Action.c(31): Found resource "http://localhost:1080/WebTours/profileValidate.js"
 Action.c(31): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(31): Registered web_reg_find successful for "Text=><B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
 Action.c(31): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0,1397 Wasted Time: 0,0225).
+Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1598 Wasted Time: 0.0230).
 Action.c(45): Notify: Transaction "complete_profile" started.
 Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -321,10 +321,10 @@ Action.c(49): Resource "http://localhost:1080/WebTours/profileValidate.js" is in
 Action.c(49): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(49): Error -26366: "Text=Thank you, <b>mrodriguez1</b>, for registering and welcome to the Web Tours family." not found for web_reg_find  	[MsgId: MERR-26366]
 Action.c(49): web_submit_data("login.pl") highest severity level was "ERROR", 2743 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
-Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0.1234 Wasted Time: 0.0205).
+Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0,1403 Wasted Time: 0,0166).
 Action.c(49): Notify: Transaction "complete_profile" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "complete_profile" is "Error -26366: "Text=Thank you, <b>mrodriguez1</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
-Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,4935 Wasted Time: 0,0662).
+Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,5403 Wasted Time: 0,0626).
 Action.c(49): Notify: Transaction "UC_0_SignUp" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "UC_0_SignUp" is "Error -26366: "Text=Thank you, <b>mrodriguez1</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
 Ending action Action.
@@ -349,7 +349,7 @@ Action.c(11): Registered web_reg_find successful for "Text=If you haven't regist
 Action.c(11): web_url("WebTours") highest severity level was "warning", 10289 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.2100 Wasted Time: 0.0267).
+Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.1994 Wasted Time: 0.0205).
 Action.c(26): Notify: Transaction "click_SignUpNow" started.
 Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -358,7 +358,7 @@ Action.c(31): Found resource "http://localhost:1080/WebTours/profileValidate.js"
 Action.c(31): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(31): Registered web_reg_find successful for "Text=><B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
 Action.c(31): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1496 Wasted Time: 0.0340).
+Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1597 Wasted Time: 0.0213).
 Action.c(45): Notify: Transaction "complete_profile" started.
 Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -367,10 +367,10 @@ Action.c(49): Resource "http://localhost:1080/WebTours/profileValidate.js" is in
 Action.c(49): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(49): Error -26366: "Text=Thank you, <b>jadams555</b>, for registering and welcome to the Web Tours family." not found for web_reg_find  	[MsgId: MERR-26366]
 Action.c(49): web_submit_data("login.pl") highest severity level was "ERROR", 2744 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
-Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0,1717 Wasted Time: 0,0240).
+Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0,1509 Wasted Time: 0,0260).
 Action.c(49): Notify: Transaction "complete_profile" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "complete_profile" is "Error -26366: "Text=Thank you, <b>jadams555</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
-Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,5719 Wasted Time: 0,0848).
+Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0.5510 Wasted Time: 0.0679).
 Action.c(49): Notify: Transaction "UC_0_SignUp" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "UC_0_SignUp" is "Error -26366: "Text=Thank you, <b>jadams555</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
 Ending action Action.
@@ -392,10 +392,10 @@ Action.c(11): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(11): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(11): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(11): Registered web_reg_find successful for "Text=If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getInfo=true" ><B>sign up now</B></A> to get access to all our resources." (count=1)  	[MsgId: MMSG-26364]
-Action.c(11): web_url("WebTours") highest severity level was "warning", 10287 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(11): web_url("WebTours") highest severity level was "warning", 10289 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0,2099 Wasted Time: 0,0301).
+Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0,2202 Wasted Time: 0,0282).
 Action.c(26): Notify: Transaction "click_SignUpNow" started.
 Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -404,7 +404,7 @@ Action.c(31): Found resource "http://localhost:1080/WebTours/profileValidate.js"
 Action.c(31): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(31): Registered web_reg_find successful for "Text=><B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
 Action.c(31): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0,1497 Wasted Time: 0,0238).
+Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0.1593 Wasted Time: 0.0303).
 Action.c(45): Notify: Transaction "complete_profile" started.
 Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -413,10 +413,10 @@ Action.c(49): Resource "http://localhost:1080/WebTours/profileValidate.js" is in
 Action.c(49): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(49): Error -26366: "Text=Thank you, <b>rthompson123</b>, for registering and welcome to the Web Tours family." not found for web_reg_find  	[MsgId: MERR-26366]
 Action.c(49): web_submit_data("login.pl") highest severity level was "ERROR", 2748 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
-Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0,1425 Wasted Time: 0,0290).
+Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0.1433 Wasted Time: 0.0300).
 Action.c(49): Notify: Transaction "complete_profile" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "complete_profile" is "Error -26366: "Text=Thank you, <b>rthompson123</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
-Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0.5426 Wasted Time: 0.0829).
+Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0,5634 Wasted Time: 0,0885).
 Action.c(49): Notify: Transaction "UC_0_SignUp" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "UC_0_SignUp" is "Error -26366: "Text=Thank you, <b>rthompson123</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
 Ending action Action.
@@ -438,10 +438,10 @@ Action.c(11): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(11): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(11): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(11): Registered web_reg_find successful for "Text=If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getInfo=true" ><B>sign up now</B></A> to get access to all our resources." (count=1)  	[MsgId: MMSG-26364]
-Action.c(11): web_url("WebTours") highest severity level was "warning", 10287 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(11): web_url("WebTours") highest severity level was "warning", 10281 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.2098 Wasted Time: 0.0283).
+Action.c(24): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.2199 Wasted Time: 0.0329).
 Action.c(26): Notify: Transaction "click_SignUpNow" started.
 Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -450,7 +450,7 @@ Action.c(31): Found resource "http://localhost:1080/WebTours/profileValidate.js"
 Action.c(31): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(31): Registered web_reg_find successful for "Text=><B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
 Action.c(31): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0,1598 Wasted Time: 0,0377).
+Action.c(41): Notify: Transaction "click_SignUpNow" ended with a "Pass" status (Duration: 0,1498 Wasted Time: 0,0258).
 Action.c(45): Notify: Transaction "complete_profile" started.
 Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -459,10 +459,10 @@ Action.c(49): Resource "http://localhost:1080/WebTours/profileValidate.js" is in
 Action.c(49): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(49): Error -26366: "Text=Thank you, <b>jsmith321</b>, for registering and welcome to the Web Tours family." not found for web_reg_find  	[MsgId: MERR-26366]
 Action.c(49): web_submit_data("login.pl") highest severity level was "ERROR", 2742 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
-Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0,1416 Wasted Time: 0,0262).
+Action.c(49): Notify: Transaction "complete_profile" ended with a "Fail" status (Duration: 0,1453 Wasted Time: 0,0281).
 Action.c(49): Notify: Transaction "complete_profile" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "complete_profile" is "Error -26366: "Text=Thank you, <b>jsmith321</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
-Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0.5518 Wasted Time: 0.0922).
+Action.c(49): Notify: Transaction "UC_0_SignUp" ended with a "Fail" status (Duration: 0.5553 Wasted Time: 0.0868).
 Action.c(49): Notify: Transaction "UC_0_SignUp" has 1 error message(s).
 Action.c(49): Notify: The 1st error message associated with transaction "UC_0_SignUp" is "Error -26366: "Text=Thank you, <b>jsmith321</b>, for registering and welcome to the Web Tours family." not found for web_reg_find"
 Ending action Action.
