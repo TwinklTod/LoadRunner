@@ -1,0 +1,11 @@
+Start auto log messages stack - Iteration 129.	[MsgId: MMSG-10545]
+..\\Parameters\\common_lib.h(2): Notify: Transaction "login" started.	[MsgId: MMSG-16999]
+..\\Parameters\\common_lib.h(4): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\common_lib.h(4): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\common_lib.h(7): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\common_lib.h(7): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\common_lib.h(7): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\common_lib.h(7): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

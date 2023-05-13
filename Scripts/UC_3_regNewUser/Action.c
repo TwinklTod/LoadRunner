@@ -43,7 +43,7 @@ Action()
 	lr_think_time(17);
 
 	lr_start_transaction("complete_profile");
-	web_reg_find("Text/IC=Thank you, <b>{login}{num}</b>, for registering and welcome to the Web Tours family.",
+	web_reg_find("Text/IC=Thank you, <b>{username}{num}</b>, for registering and welcome to the Web Tours family.",
 		LAST);
 
 	web_submit_data("login.pl", 
@@ -55,7 +55,7 @@ Action()
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=username", "Value={login}{num}", ENDITEM, 
+		"Name=username", "Value={username}{num}", ENDITEM, 
 		"Name=password", "Value={password}", ENDITEM, 
 		"Name=passwordConfirm", "Value={password}", ENDITEM, 
 		"Name=firstName", "Value={first_Name}", ENDITEM, 
@@ -70,7 +70,7 @@ Action()
 
 	lr_start_transaction("click_Continue");
 	
-	web_reg_find("Text/IC=Welcome, <b>{login}{num}</b>, to the Web Tours reservation pages.",
+	web_reg_find("Text/IC=Welcome, <b>{username}{num}</b>, to the Web Tours reservation pages.",
 		LAST);
 
 	web_url("button_next.gif", 
