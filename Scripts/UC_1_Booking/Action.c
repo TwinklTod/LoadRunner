@@ -5,16 +5,20 @@ Action()
 	
 	open_homepage();
 	
+	lr_think_time(6);
+	
 	login();
 	
 	click_flight();
 	
+	lr_think_time(20);
+	
 	find_flights();
 	
-
-	lr_think_time(9);
-
+	lr_think_time(7);
+	
 	choose_flight();
+	
 
 	lr_start_transaction("Payment_Details");
 	
@@ -57,6 +61,8 @@ Action()
 		LAST);
 
 	lr_end_transaction("Payment_Details",LR_AUTO);
+	
+	lr_think_time(5);
 	
 	click_itinerary();
 	

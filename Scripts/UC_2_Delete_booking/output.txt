@@ -1,4 +1,4 @@
-Virtual User Script started at: 14.05.2023 1:06:01
+Virtual User Script started at: 14.05.2023 22:18:11
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (Jan 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -24,7 +24,8 @@ Action.c(3): Notify: Transaction "UC_2_Delete_booking" started.
 ..\\Parameters\\common_lib.h(41): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 ..\\Parameters\\common_lib.h(41): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 ..\\Parameters\\common_lib.h(41): web_url("WebTours") highest severity level was "warning", 10289 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
-..\\Parameters\\common_lib.h(53): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0,3123 Wasted Time: 0,1559).
+..\\Parameters\\common_lib.h(53): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.3240 Wasted Time: 0.1618).
+Action.c(7): lr_think_time: 5.00 seconds.
 ..\\Parameters\\common_lib.h(2): Notify: Transaction "login" started.
 ..\\Parameters\\common_lib.h(4): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(4): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -35,15 +36,15 @@ Action.c(3): Notify: Transaction "UC_2_Delete_booking" started.
 ..\\Parameters\\common_lib.h(7): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 ..\\Parameters\\common_lib.h(7): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 ..\\Parameters\\common_lib.h(7): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-..\\Parameters\\common_lib.h(7): Registered web_reg_find successful for "Text=Welcome, <b>jojo</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
-..\\Parameters\\common_lib.h(7): web_submit_data("login.pl") was successful, 5779 body bytes, 2031 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\Parameters\\common_lib.h(23): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.1803 Wasted Time: 0.0093).
-Action.c(9): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(9): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(13): web_reg_save_param started  	[MsgId: MMSG-26355]
-Action.c(13): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
-Action.c(19): web_reg_save_param started  	[MsgId: MMSG-26355]
-Action.c(19): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\common_lib.h(7): Registered web_reg_find successful for "Text=Welcome, <b>klee777</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\common_lib.h(7): web_submit_data("login.pl") was successful, 5782 body bytes, 2063 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(23): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.2347 Wasted Time: 0.0132).
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(15): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(21): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(21): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 ..\\Parameters\\common_lib.h(154): Notify: Transaction "click_Itinerary" started.
 ..\\Parameters\\common_lib.h(156): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(156): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
@@ -55,22 +56,32 @@ Action.c(19): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390
 ..\\Parameters\\common_lib.h(156): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
 ..\\Parameters\\common_lib.h(156): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
 ..\\Parameters\\common_lib.h(156): Registered web_reg_find successful for "Text=<H3>No flights have been reserved.</H3>"  	[MsgId: MMSG-26362]
-..\\Parameters\\common_lib.h(156): web_url("Itinerary Button") was successful, 32528 body bytes, 1913 header bytes, 83 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\Parameters\\common_lib.h(166): Notify: Transaction "click_Itinerary" ended with a "Pass" status (Duration: 0.1775 Wasted Time: 0.0111).
-Action.c(33): Notify: Transaction "cancel_booking" started.
-Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(45): web_submit_form("itinerary.pl") started  	[MsgId: MMSG-26355]
-Action.c(45): Error -27979: Requested form not found  	[MsgId: MERR-27979]
-Action.c(45): Warning -26379: Pending web_reg_save_param/web_reg_find/web_create_html_param/web_create_html_param_ex request(s) are deleted and will be handled as "not found"  	[MsgId: MWAR-26379]
-Action.c(45): Registered web_reg_find successful for "Text={rnd_flightID}"  	[MsgId: MMSG-26362]
-Action.c(45): web_submit_form("itinerary.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
-Action.c(45): Notify: Transaction "cancel_booking" ended with a "Fail" status (Duration: 0.0595).
-Action.c(45): Notify: Transaction "cancel_booking" has 1 error message(s).
-Action.c(45): Notify: The 1st error message associated with transaction "cancel_booking" is "Error -27979: Requested form not found"
-Action.c(45): Notify: Transaction "UC_2_Delete_booking" ended with a "Fail" status (Duration: 0.8891 Wasted Time: 0.1763).
-Action.c(45): Notify: Transaction "UC_2_Delete_booking" has 1 error message(s).
-Action.c(45): Notify: The 1st error message associated with transaction "UC_2_Delete_booking" is "Error -27979: Requested form not found"
+..\\Parameters\\common_lib.h(156): web_url("Itinerary Button") was successful, 9100 body bytes, 1913 header bytes, 42 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(166): Notify: Transaction "click_Itinerary" ended with a "Pass" status (Duration: 0,2342 Wasted Time: 0,0116).
+Action.c(29): lr_think_time: 10,00 seconds.
+Action.c(38): Notify: Transaction "cancel_booking" started.
+Action.c(40): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(40): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(48): web_submit_form("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(48): Submitting form to "http://localhost:1080/cgi-bin/itinerary.pl", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(48): Resource "http://localhost:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(48): Resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(48): Registered web_reg_find successful for "Text={rnd_flightID}"  	[MsgId: MMSG-26362]
+Action.c(48): web_submit_form("itinerary.pl") was successful, 2777 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(56): Notify: Transaction "cancel_booking" ended with a "Pass" status (Duration: 0.1746 Wasted Time: 0.0086).
+Action.c(58): lr_think_time: 6.00 seconds.
+..\\Parameters\\common_lib.h(169): Notify: Transaction "Logout" started.
+..\\Parameters\\common_lib.h(171): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\common_lib.h(171): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\common_lib.h(174): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\common_lib.h(174): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\common_lib.h(174): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\common_lib.h(174): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\common_lib.h(174): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\common_lib.h(174): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\common_lib.h(174): web_url("SignOff Button") was successful, 2172 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(184): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1502 Wasted Time: 0,0081).
+Action.c(62): Notify: Transaction "UC_2_Delete_booking" ended with a "Pass" status (Duration: 22,3175 Think Time: 21,0198 Wasted Time: 0,2033).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

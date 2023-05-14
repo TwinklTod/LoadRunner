@@ -3,6 +3,8 @@ Action()
 	lr_start_transaction("UC_2_Delete_booking");
 	
 	open_homepage();
+	
+	lr_think_time(5);
 
 	login();
 	
@@ -23,6 +25,9 @@ Action()
 		LAST);
 		
 	click_itinerary();
+	
+	lr_think_time(10);
+	
 	lr_save_string(lr_paramarr_random("checkbox"), "rnd_checkbox");
 		                
 	if (atoi(lr_eval_string("{NoBooking}")) == 1) {
@@ -31,8 +36,6 @@ Action()
 	else {
 	 			
 	lr_start_transaction("cancel_booking");
-	
-	
 	
 	web_reg_find("Fail=Found",
 		"Text/IC={rnd_flightID}",
@@ -51,6 +54,9 @@ Action()
 		LAST);
 
 	lr_end_transaction("cancel_booking",LR_AUTO);
+	
+	lr_think_time(6);
+	
 	logout();
 	    }
 	lr_end_transaction("UC_2_Delete_booking", LR_AUTO);

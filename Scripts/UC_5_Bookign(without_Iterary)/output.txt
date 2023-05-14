@@ -1,9 +1,9 @@
-Virtual User Script started at: 12.05.2023 22:03:33
+Virtual User Script started at: 14.05.2023 22:43:10
 Starting action vuser_init.
-Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (ÿíâ 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (Jan 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
-Runtime Settings file: "D:\ÍÒ\LoadRunneLessons\LoadRunner\Ñêðèïòû\UC_5_Bookign(without_Iterary)\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "D:\IBS\LoadRunneLessons\LoadRunner\Scripts\UC_5_Bookign(without_Iterary)\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -23,8 +23,9 @@ Action.c(4): Notify: Transaction "UC_5_Booking(without_Iterary)" started.
 ..\\Parameters\\common_lib.h(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 ..\\Parameters\\common_lib.h(41): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 ..\\Parameters\\common_lib.h(41): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
-..\\Parameters\\common_lib.h(41): web_url("WebTours") highest severity level was "warning", 10285 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
-..\\Parameters\\common_lib.h(53): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.3751 Wasted Time: 0.1716).
+..\\Parameters\\common_lib.h(41): web_url("WebTours") highest severity level was "warning", 10288 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+..\\Parameters\\common_lib.h(53): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0.2982 Wasted Time: 0.1600).
+Action.c(8): lr_think_time: 6.00 seconds.
 ..\\Parameters\\common_lib.h(2): Notify: Transaction "login" started.
 ..\\Parameters\\common_lib.h(4): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(4): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -35,9 +36,9 @@ Action.c(4): Notify: Transaction "UC_5_Booking(without_Iterary)" started.
 ..\\Parameters\\common_lib.h(7): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 ..\\Parameters\\common_lib.h(7): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 ..\\Parameters\\common_lib.h(7): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-..\\Parameters\\common_lib.h(7): Registered web_reg_find successful for "Text=Welcome, <b>jojo</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
-..\\Parameters\\common_lib.h(7): web_submit_data("login.pl") was successful, 5779 body bytes, 2031 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\Parameters\\common_lib.h(23): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.2208 Wasted Time: 0.0118).
+..\\Parameters\\common_lib.h(7): Registered web_reg_find successful for "Text=Welcome, <b>mrodriguez1</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\common_lib.h(7): web_submit_data("login.pl") was successful, 5786 body bytes, 2073 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(23): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.1866 Wasted Time: 0.0098).
 ..\\Parameters\\common_lib.h(57): Notify: Transaction "click_Flights" started.
 ..\\Parameters\\common_lib.h(59): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -51,7 +52,8 @@ Action.c(4): Notify: Transaction "UC_5_Booking(without_Iterary)" started.
 ..\\Parameters\\common_lib.h(62): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
 ..\\Parameters\\common_lib.h(62): Registered web_reg_find successful for "Text=<title>Flight Selections</title>" (count=1)  	[MsgId: MMSG-26364]
 ..\\Parameters\\common_lib.h(62): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\Parameters\\common_lib.h(72): Notify: Transaction "click_Flights" ended with a "Pass" status (Duration: 0.1981 Wasted Time: 0.0099).
+..\\Parameters\\common_lib.h(72): Notify: Transaction "click_Flights" ended with a "Pass" status (Duration: 0.1862 Wasted Time: 0.0130).
+Action.c(14): lr_think_time: 20.00 seconds.
 ..\\Parameters\\common_lib.h(76): Notify: Transaction "Find_Flight" started.
 ..\\Parameters\\common_lib.h(78): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(78): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -61,30 +63,31 @@ Action.c(4): Notify: Transaction "UC_5_Booking(without_Iterary)" started.
 ..\\Parameters\\common_lib.h(88): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 ..\\Parameters\\common_lib.h(95): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(95): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-..\\Parameters\\common_lib.h(95): Registered web_reg_find successful for "Text=Flight departing from <B>Zurich</B> to <B>San Francisco</B> on <B>05/13/2023<" (count=1)  	[MsgId: MMSG-26364]
-..\\Parameters\\common_lib.h(95): web_submit_data("reservations.pl") was successful, 3610 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(95): Registered web_reg_find successful for "Text=Flight departing from <B>Denver</B> to <B>Los Angeles</B> on <B>05/15/2023<" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\common_lib.h(95): web_submit_data("reservations.pl") was successful, 3601 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 ..\\Parameters\\common_lib.h(120): web_set_sockets_option started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(120): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-..\\Parameters\\common_lib.h(122): Notify: Transaction "Find_Flight" ended with a "Pass" status (Duration: 0,1324 Wasted Time: 0,0146).
+..\\Parameters\\common_lib.h(122): Notify: Transaction "Find_Flight" ended with a "Pass" status (Duration: 0.1217 Wasted Time: 0.0082).
+Action.c(18): lr_think_time: 7.00 seconds.
 ..\\Parameters\\common_lib.h(126): Notify: Transaction "Choose_Flight" started.
 ..\\Parameters\\common_lib.h(128): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(128): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 ..\\Parameters\\common_lib.h(131): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(131): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ..\\Parameters\\common_lib.h(131): Registered web_reg_find successful for "Text=<b>Payment Details</font></b>" (count=1)  	[MsgId: MMSG-26364]
-..\\Parameters\\common_lib.h(131): web_submit_data("reservations.pl_2") was successful, 2866 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\Parameters\\common_lib.h(150): Notify: Transaction "Choose_Flight" ended with a "Pass" status (Duration: 0,1222 Wasted Time: 0,0137).
-Action.c(15): Notify: Transaction "Payment_Details" started.
-Action.c(17): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(17): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(20): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(20): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(24): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
-Action.c(24): Found resource "http://localhost:1080/WebTours/images/bookanother.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
-Action.c(24): Registered web_reg_find successful for "Text=<B>Thank you for booking through Web Tours.</B>" (count=1)  	[MsgId: MMSG-26364]
-Action.c(24): Registered web_reg_find successful for "Text=leaves Zurich  for San Francisco.<br>" (count=1)  	[MsgId: MMSG-26364]
-Action.c(24): web_submit_data("reservations.pl_3") was successful, 3395 body bytes, 658 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(56): Notify: Transaction "Payment_Details" ended with a "Pass" status (Duration: 0,2527 Wasted Time: 0,0119).
+..\\Parameters\\common_lib.h(131): web_submit_data("reservations.pl_2") was successful, 2914 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(150): Notify: Transaction "Choose_Flight" ended with a "Pass" status (Duration: 0,1226 Wasted Time: 0,0109).
+Action.c(22): Notify: Transaction "Payment_Details" started.
+Action.c(24): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(24): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(27): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(27): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(31): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+Action.c(31): Found resource "http://localhost:1080/WebTours/images/bookanother.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+Action.c(31): Registered web_reg_find successful for "Text=<B>Thank you for booking through Web Tours.</B>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(31): Registered web_reg_find successful for "Text=leaves Denver  for Los Angeles.<br>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(31): web_submit_data("reservations.pl_3") was successful, 3384 body bytes, 697 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(63): Notify: Transaction "Payment_Details" ended with a "Pass" status (Duration: 0,2397 Wasted Time: 0,0114).
 ..\\Parameters\\common_lib.h(169): Notify: Transaction "Logout" started.
 ..\\Parameters\\common_lib.h(171): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(171): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -95,8 +98,8 @@ Action.c(56): Notify: Transaction "Payment_Details" ended with a "Pass" status (
 ..\\Parameters\\common_lib.h(174): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ..\\Parameters\\common_lib.h(174): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
 ..\\Parameters\\common_lib.h(174): web_url("SignOff Button") was successful, 2174 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\Parameters\\common_lib.h(184): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0.1936 Wasted Time: 0.0091).
-Action.c(60): Notify: Transaction "UC_5_Booking(without_Iterary)" ended with a "Pass" status (Duration: 1.6251 Wasted Time: 0.2427).
+..\\Parameters\\common_lib.h(184): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0.1587 Wasted Time: 0.0081).
+Action.c(67): Notify: Transaction "UC_5_Booking(without_Iterary)" ended with a "Pass" status (Duration: 34.4997 Think Time: 33.0362 Wasted Time: 0.2213).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

@@ -22,6 +22,8 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 	lr_end_transaction("open_homepage", LR_AUTO);
+	
+	lr_think_time(4);
 
 	lr_start_transaction("click_SignUpNow");
 	
