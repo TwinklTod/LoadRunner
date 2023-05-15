@@ -11,29 +11,36 @@ Action()
 	web_reg_find("SaveCount=NoBooking",
 		"Text/IC=<H3>No flights have been reserved.</H3>",
 		LAST);
-
-	web_reg_save_param("flightID",
+	
+		web_reg_save_param("flightID",
 		"LB/IC=flightID\" value=\"",
 		"RB/IC=\"",
 		"Ord=ALL",
+		"NotFound=WARNING",
 		LAST);
 	
-	web_reg_save_param("checkbox",
+		web_reg_save_param("checkbox",
 		"LB/IC=checkbox\" name=\"",
 		"RB/IC=\"",
 		"Ord=ALL",
+		"NotFound=WARNING",
 		LAST);
-		
+			
 	click_itinerary();
 	
 	lr_think_time(10);
 	
-	lr_save_string(lr_paramarr_random("checkbox"), "rnd_checkbox");
+	
 		                
 	if (atoi(lr_eval_string("{NoBooking}")) == 1) {
+		
 	    logout();
+	    
 	    }
+	
 	else {
+		
+	lr_save_string(lr_paramarr_random("checkbox"), "rnd_checkbox");
 	 			
 	lr_start_transaction("cancel_booking");
 	
@@ -58,7 +65,9 @@ Action()
 	lr_think_time(6);
 	
 	logout();
-	    }
+	
+	}
+	
 	lr_end_transaction("UC_2_Delete_booking", LR_AUTO);
 
 	return 0;
