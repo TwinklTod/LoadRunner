@@ -1,7 +1,7 @@
 Action()
 {
 
-	lr_start_transaction("UC_0_SignUp");
+	lr_start_transaction("UC_3_regNewUser");
 
 	lr_start_transaction("open_homepage");
 
@@ -23,7 +23,7 @@ Action()
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 	lr_end_transaction("open_homepage", LR_AUTO);
 	
-	lr_think_time(4);
+	lr_think_time(5);
 
 	lr_start_transaction("click_SignUpNow");
 	
@@ -42,7 +42,7 @@ Action()
 
 	lr_end_transaction("click_SignUpNow",LR_AUTO);
 
-	lr_think_time(17);
+	lr_think_time(5);
 
 	lr_start_transaction("complete_profile");
 	web_reg_find("Text/IC=Thank you, <b>{username}{num}</b>, for registering and welcome to the Web Tours family.",
@@ -103,7 +103,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("Logout",LR_AUTO);
-	lr_end_transaction("UC_0_SignUp", LR_AUTO);
+	lr_end_transaction("UC_3_regNewUser", LR_AUTO);
 
 	return 0;
 }

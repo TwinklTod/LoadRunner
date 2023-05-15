@@ -28,7 +28,7 @@ Action()
 			
 	click_itinerary();
 	
-	lr_think_time(10);
+	lr_think_time(5);
 	
 	
 		                
@@ -62,7 +62,7 @@ Action()
 
 	lr_end_transaction("cancel_booking",LR_AUTO);
 	
-	lr_think_time(6);
+	lr_think_time(5);
 	
 	logout();
 	

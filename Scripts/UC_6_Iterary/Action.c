@@ -4,7 +4,7 @@ Action()
 	
 	open_homepage();
 	
-	lr_think_time(6);
+	lr_think_time(5);
 	
 	login();
 	

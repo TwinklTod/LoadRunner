@@ -5,17 +5,17 @@ Action()
 	
 	open_homepage();
 	
-	lr_think_time(6);
+	lr_think_time(5);
 	
 	login();
 	
 	click_flight();
 	
-	lr_think_time(20);
+	lr_think_time(5);
 	
 	find_flights();
 	
-	lr_think_time(7);
+	lr_think_time(5);
 	
 	choose_flight();
 	

@@ -3,13 +3,13 @@ Action()
 	lr_start_transaction("UC_4_SearchFlight");
 	open_homepage();
 	
-	lr_think_time(7);
+	lr_think_time(5);
 	
 	login();
 	
 	click_flight();
 	
-	lr_think_time(18);
+	lr_think_time(5);
 	
 	find_flights();
 	
