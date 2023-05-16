@@ -14,9 +14,7 @@ Action()
 	lr_think_time(5);
 	
 	find_flights();
-	
-	lr_think_time(5);
-	
+		
 	choose_flight();
 	
 
@@ -61,9 +59,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("Payment_Details",LR_AUTO);
-	
-	lr_think_time(5);
-	
+		
 	click_itinerary();
 	
 	lr_end_transaction("UC_1_Booking", LR_AUTO);

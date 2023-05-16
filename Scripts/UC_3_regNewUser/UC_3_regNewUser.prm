@@ -118,7 +118,7 @@ value_for_each_vuser=""
 [parameter:num]
 Format="%lu"
 GenerateNewVal="EachIteration"
-MaxValue="100"
+MaxValue="999"
 MinValue="1"
 OriginalValue=""
 ParamName="num"
