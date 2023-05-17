@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\IBS\LoadRunneLessons\LoadRunner\Scripts\UC_5_Bookign(without_Iterary)
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\ibs\loadrunnelessons\loadrunner\scripts\uc_5_bookign(without_iterary)\\logfile.log
+d:\ibs\loadrunnelessons\loadrunner\scripts\uc_5_bookign(without_iterary)\\combined_UC_5_Bookign(without_Iterary).c
+d:\ibs\loadrunnelessons\loadrunner\scripts\uc_5_bookign(without_iterary)\\pre_cci.c
