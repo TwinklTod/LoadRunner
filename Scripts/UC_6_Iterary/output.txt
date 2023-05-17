@@ -1,4 +1,4 @@
-Virtual User Script started at: 15.05.2023 21:51:18
+Virtual User Script started at: 17.05.2023 3:13:32
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -23,8 +23,8 @@ Action.c(3): Notify: Transaction "UC_6_Itinerary" started.
 ..\\Parameters\\common_lib.h(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 ..\\Parameters\\common_lib.h(41): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 ..\\Parameters\\common_lib.h(41): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
-..\\Parameters\\common_lib.h(41): web_url("WebTours") highest severity level was "warning", 10283 body bytes, 2587 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
-..\\Parameters\\common_lib.h(53): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0,3315 Wasted Time: 0,1625).
+..\\Parameters\\common_lib.h(41): web_url("WebTours") highest severity level was "warning", 10287 body bytes, 2588 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+..\\Parameters\\common_lib.h(53): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 0,3311 Wasted Time: 0,1624).
 Action.c(7): lr_think_time: 5,00 seconds.
 ..\\Parameters\\common_lib.h(2): Notify: Transaction "login" started.
 ..\\Parameters\\common_lib.h(4): web_reg_find started  	[MsgId: MMSG-26355]
@@ -36,9 +36,9 @@ Action.c(7): lr_think_time: 5,00 seconds.
 ..\\Parameters\\common_lib.h(7): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 ..\\Parameters\\common_lib.h(7): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 ..\\Parameters\\common_lib.h(7): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-..\\Parameters\\common_lib.h(7): Registered web_reg_find successful for "Text=Welcome, <b>dhill88</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
-..\\Parameters\\common_lib.h(7): web_submit_data("login.pl") was successful, 5782 body bytes, 2063 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\Parameters\\common_lib.h(23): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,2033 Wasted Time: 0,0116).
+..\\Parameters\\common_lib.h(7): Registered web_reg_find successful for "Text=Welcome, <b>rthompson123</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\common_lib.h(7): web_submit_data("login.pl") was successful, 5787 body bytes, 2070 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(23): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,2295 Wasted Time: 0,0100).
 ..\\Parameters\\common_lib.h(154): Notify: Transaction "click_Itinerary" started.
 ..\\Parameters\\common_lib.h(156): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(156): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
@@ -49,8 +49,8 @@ Action.c(7): lr_think_time: 5,00 seconds.
 ..\\Parameters\\common_lib.h(156): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ..\\Parameters\\common_lib.h(156): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
 ..\\Parameters\\common_lib.h(156): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-..\\Parameters\\common_lib.h(156): web_url("Itinerary Button") was successful, 52719 body bytes, 1913 header bytes, 123 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\Parameters\\common_lib.h(166): Notify: Transaction "click_Itinerary" ended with a "Pass" status (Duration: 0,2349 Wasted Time: 0,0113).
+..\\Parameters\\common_lib.h(156): web_url("Itinerary Button") was successful, 220701 body bytes, 1913 header bytes, 443 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(166): Notify: Transaction "click_Itinerary" ended with a "Pass" status (Duration: 0,2316 Wasted Time: 0,0217).
 ..\\Parameters\\common_lib.h(169): Notify: Transaction "Logout" started.
 ..\\Parameters\\common_lib.h(171): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\Parameters\\common_lib.h(171): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -60,9 +60,9 @@ Action.c(7): lr_think_time: 5,00 seconds.
 ..\\Parameters\\common_lib.h(174): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
 ..\\Parameters\\common_lib.h(174): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ..\\Parameters\\common_lib.h(174): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-..\\Parameters\\common_lib.h(174): web_url("SignOff Button") was successful, 2168 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\Parameters\\common_lib.h(184): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1811 Wasted Time: 0,0085).
-Action.c(15): Notify: Transaction "UC_6_Itinerary" ended with a "Pass" status (Duration: 6,0101 Think Time: 5,0126 Wasted Time: 0,1939).
+..\\Parameters\\common_lib.h(174): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\common_lib.h(184): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1628 Wasted Time: 0,0076).
+Action.c(15): Notify: Transaction "UC_6_Itinerary" ended with a "Pass" status (Duration: 5,9667 Think Time: 5,0002 Wasted Time: 0,2018).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

@@ -22,8 +22,6 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 	lr_end_transaction("open_homepage", LR_AUTO);
-	
-	lr_think_time(5);
 
 	lr_start_transaction("click_SignUpNow");
 	
@@ -45,8 +43,9 @@ Action()
 	lr_think_time(5);
 
 	lr_start_transaction("complete_profile");
-	web_reg_find("Text/IC=Thank you, <b>{username}{num}</b>, for registering and welcome to the Web Tours family.",
+	web_reg_find("Text/IC=Thank you, <b>{rnd1}{rnd2}{rnd3}{num}</b>, for registering and welcome to the Web Tours family.",
 		LAST);
+
 
 	web_submit_data("login.pl", 
 		"Action=http://localhost:1080/cgi-bin/login.pl", 
@@ -57,9 +56,9 @@ Action()
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=username", "Value={username}{num}", ENDITEM, 
-		"Name=password", "Value={password}", ENDITEM, 
-		"Name=passwordConfirm", "Value={password}", ENDITEM, 
+		"Name=username", "Value={rnd1}{rnd2}{rnd3}{num}", ENDITEM, 
+		"Name=password", "Value={rnd1}{rnd2}{rnd3}{num}", ENDITEM, 
+		"Name=passwordConfirm", "Value={rnd1}{rnd2}{rnd3}{num}", ENDITEM, 
 		"Name=firstName", "Value={first_Name}", ENDITEM, 
 		"Name=lastName", "Value={last_Name}", ENDITEM, 
 		"Name=address1", "Value={street}", ENDITEM, 
@@ -72,7 +71,7 @@ Action()
 
 	lr_start_transaction("click_Continue");
 	
-	web_reg_find("Text/IC=Welcome, <b>{username}{num}</b>, to the Web Tours reservation pages.",
+	web_reg_find("Text/IC=Welcome, <b>{rnd1}{rnd2}{rnd3}{num}</b>, to the Web Tours reservation pages.",
 		LAST);
 
 	web_url("button_next.gif", 

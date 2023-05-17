@@ -17,6 +17,7 @@ Action()
 		
 	choose_flight();
 	
+	lr_think_time(5);
 
 	lr_start_transaction("Payment_Details");
 	

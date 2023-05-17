@@ -1,2 +1,2 @@
-"userSession=136425.940299716HAVHtAQpDAtVzzzHtcVAtptfficf&username=rthompson123&password=Thomp%"
-"24on123&JSFormSubmit=off&login.x=0&login.y=0"
+"userSession=136433.791008505HAVHiVDpVcftcVAzpiHiHf&username=jsmith321&password=Pass123%21&JSFo"
+"rmSubmit=off&login.x=0&login.y=0"
