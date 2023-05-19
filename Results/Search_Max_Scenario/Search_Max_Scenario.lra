@@ -1,12 +1,12 @@
 ﻿[Workspace]
 SessionStartTime=0
-SessionEndTime=6703
+SessionEndTime=6720
 VerNo=13
 IsSummaryData=0
 TimeFormat=0
 SesLang=RUS
 ABuild=0
-DataBaseName=resl224247221DB
+DataBaseName=resl300140674DB
 DBType=1
 CurrServer=DESKTOP-AL6JD5G
 CurrUser=sa
@@ -34,7 +34,7 @@ MonAgg=0
 ErrAgg=0
 FilterEdge=0
 FSartTime=0
-FEndTime=84600
+FEndTime=0
 
 [Result0]
 LRRID=
@@ -43,8 +43,8 @@ ResultTDPath=
 NumFilters=0
 ScenarioTimeZone=-18000
 DaylightSavingSecsAddition=0
-ScenarioStartTime=1684314368
-ScenarioEndTime=1684321071
+ScenarioStartTime=1684436540
+ScenarioEndTime=1684443260
 ResInSD=0
 WebGran=45
 FilterEdge=0
@@ -59,7 +59,7 @@ Schedule Name=Schedule 2
 Mode=Scenario Scheduling
 Load Behavior=Initialize each Vuser just before it runs
 Scenario Duration=Start 10 Vusers: 1 every 00:00:02 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:02 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:02 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:02 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:02 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers simultaneously
-NumGraphs=12
+NumGraphs=10
 
 [DimensionFunctions]
 DimeFuncCount=0

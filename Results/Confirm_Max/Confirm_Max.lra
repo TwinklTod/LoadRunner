@@ -1,17 +1,17 @@
 ﻿[Workspace]
 SessionStartTime=0
-SessionEndTime=3795
+SessionEndTime=3791
 VerNo=13
 IsSummaryData=0
 TimeFormat=0
 SesLang=RUS
 ABuild=0
-DataBaseName=resl231104363DB
+DataBaseName=resl338444086DB
 DBType=1
-CurrServer=CORPUSCUL
+CurrServer=DESKTOP-AL6JD5G
 CurrUser=sa
 CurrPswd===
-StorageLoc=\\CORPUSCUL\Data\
+StorageLoc=\\DESKTOP-AL6JD5G\Data\
 PhStorageLoc=C:\MSSQL7\Data
 LocStorageLoc=
 LocPhStorageLoc=
@@ -43,10 +43,10 @@ ResultTDPath=
 NumFilters=0
 ScenarioTimeZone=-18000
 DaylightSavingSecsAddition=0
-ScenarioStartTime=1684345028
-ScenarioEndTime=1684348823
+ScenarioStartTime=1684450982
+ScenarioEndTime=1684454773
 ResInSD=0
-WebGran=5
+WebGran=45
 FilterEdge=0
 FSartTime=0
 FEndTime=0
@@ -58,8 +58,8 @@ Scenario Type=Manual
 Schedule Name=Schedule 2
 Mode=Scenario Scheduling
 Load Behavior=Initialize each Vuser just before it runs
-Scenario Duration=Start 30 Vusers: 1 every 00:00:02 (HH:MM:SS); Run for 01:02:00 (HH:MM:SS); Stop all Vusers simultaneously
-NumGraphs=9
+Scenario Duration=Start 27 Vusers: 1 every 00:00:02 (HH:MM:SS); Run for 01:02:00 (HH:MM:SS); Stop all Vusers simultaneously
+NumGraphs=10
 
 [DimensionFunctions]
 DimeFuncCount=0
